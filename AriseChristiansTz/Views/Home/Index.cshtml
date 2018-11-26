@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="top:0%; padding:0; margin:0;" data-interval="6000">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -64,43 +64,96 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+<div class="body-content">
+    <div class="row">
+        <div class="col-md-3">
+            <h2>Application </h2>
+            <div class=" ">
+                <video id="player1" style="max-width: 100%;  height: auto;" controls preload="none"
+                       data-cast-title="Big Buck Bunny"
+                       data-cast-description="Big Buck Bunny is now even more a world standard for video standards"
+                       poster="http://mediaelementjs.com/images/big_buck_bunny.jpg">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/BigBuckBunny.mp4" data-playlist-thumbnail="http://mediaelementjs.com/images/big_buck_bunny.jpg"
+                            title="Big Buck Bunny" data-playlist-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum justo arcu. Vestibulum commodo lacus bibendum sollicitudin commodo." type="video/mp4">
+                    <source src="http://www.streambox.fr/playlists/test_001/stream.m3u8" title="Hls.js Demo" data-playlist-description="Curabitur et malesuada arcu. Praesent hendrerit, quam vel pellentesque aliquam, metus felis mattis velit, quis varius metus diam vitae diam. Integer ante massa, tempor in accumsan eu, sodales in lectus." type="application/x-mpegURL">
+                    <source src="http://la2.indexcom.com/me/flv/guqin.flv" title="Guqin - Ghost" type="video/flv">
+                </video>
+            </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
+
+            <ul>
+                <li>Sample pages using ASP.NET Core MVC</li>
+                <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>How to</h2>
+            <div class=" ">
+                <video id="player2" style="max-width: 100%;  height: auto;" controls preload="none"
+                       data-cast-title="Big Buck Bunny"
+                       data-cast-description="Big Buck Bunny is now even more a world standard for video standards"
+                       poster="http://mediaelementjs.com/images/big_buck_bunny.jpg">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/BigBuckBunny.mp4" data-playlist-thumbnail="http://mediaelementjs.com/images/big_buck_bunny.jpg"
+                            title="Big Buck Bunny" data-playlist-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum justo arcu. Vestibulum commodo lacus bibendum sollicitudin commodo." type="video/mp4">
+                    <source src="http://www.streambox.fr/playlists/test_001/stream.m3u8" title="Hls.js Demo" data-playlist-description="Curabitur et malesuada arcu. Praesent hendrerit, quam vel pellentesque aliquam, metus felis mattis velit, quis varius metus diam vitae diam. Integer ante massa, tempor in accumsan eu, sodales in lectus." type="application/x-mpegURL">
+                    <source src="http://la2.indexcom.com/me/flv/guqin.flv" title="Guqin - Ghost" type="video/flv">
+                </video>
+            </div>
+
+
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>Overview</h2>
+            <div class=" ">
+                <video id="player3" style="max-width: 100%;  height: auto;" controls preload="none"
+                       data-cast-title="Big Buck Bunny"
+                       data-cast-description="Big Buck Bunny is now even more a world standard for video standards"
+                       poster="http://mediaelementjs.com/images/big_buck_bunny.jpg">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/BigBuckBunny.mp4" data-playlist-thumbnail="http://mediaelementjs.com/images/big_buck_bunny.jpg"
+                            title="Big Buck Bunny" data-playlist-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum justo arcu. Vestibulum commodo lacus bibendum sollicitudin commodo." type="video/mp4">
+                    <source src="http://www.streambox.fr/playlists/test_001/stream.m3u8" title="Hls.js Demo" data-playlist-description="Curabitur et malesuada arcu. Praesent hendrerit, quam vel pellentesque aliquam, metus felis mattis velit, quis varius metus diam vitae diam. Integer ante massa, tempor in accumsan eu, sodales in lectus." type="application/x-mpegURL">
+                    <source src="http://la2.indexcom.com/me/flv/guqin.flv" title="Guqin - Ghost" type="video/flv">
+                </video>
+            </div>
+
+
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>Run &amp; Deploy</h2>
+            <div class=" ">
+                <video id="player4" style="max-width: 100%;  height: auto;" controls preload="none"
+                       data-cast-title="Big Buck Bunny"
+                       data-cast-description="Big Buck Bunny is now even more a world standard for video standards"
+                       poster="http://mediaelementjs.com/images/big_buck_bunny.jpg">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/BigBuckBunny.mp4" data-playlist-thumbnail="http://mediaelementjs.com/images/big_buck_bunny.jpg"
+                            title="Big Buck Bunny" data-playlist-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum justo arcu. Vestibulum commodo lacus bibendum sollicitudin commodo." type="video/mp4">
+                    <source src="http://www.streambox.fr/playlists/test_001/stream.m3u8" title="Hls.js Demo" data-playlist-description="Curabitur et malesuada arcu. Praesent hendrerit, quam vel pellentesque aliquam, metus felis mattis velit, quis varius metus diam vitae diam. Integer ante massa, tempor in accumsan eu, sodales in lectus." type="application/x-mpegURL">
+                    <source src="http://la2.indexcom.com/me/flv/guqin.flv" title="Guqin - Ghost" type="video/flv">
+                </video>
+            </div>
+
+
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+            </ul>
+        </div>
     </div>
 </div>
